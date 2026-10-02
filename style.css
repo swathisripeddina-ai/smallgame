@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+.game {
+    width: 500px;
+    height: 500px;
+    background: #222;
+    border: 3px solid white;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+#basket {
+    width: 100px;
+    height: 20px;
+    background: limegreen;
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
